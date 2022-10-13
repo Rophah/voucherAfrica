@@ -1,0 +1,32 @@
+.product {
+  max-width: 250px;
+  animation: slide-up 0.5s ease-in-out 1;
+  transform: all 0.3s;
+  background-color: #fff;
+  padding: 4rem;
+  text-align: center;
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: all .3s ease-in-out;
+}
+
+.product:hover {
+  transform: translateY(-5px);
+}
+
+@keyframes slide-up {
+  0% {
+    transform: translateY(2rem);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.product i {
+  font-size: 10rem;
+  color: #000;
+}

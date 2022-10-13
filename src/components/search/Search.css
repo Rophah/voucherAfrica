@@ -1,0 +1,16 @@
+.voucherInput {
+  width: 94%;
+  border: none;
+  height: 5rem;
+}
+
+.searchItem {
+  position: relative;
+  color: rgb(35, 35, 35);
+}
+
+.searchIcon {
+  position: absolute;
+  top: 1.5rem;
+  left: 85%;
+}
