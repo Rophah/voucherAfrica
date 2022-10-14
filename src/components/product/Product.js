@@ -4,8 +4,8 @@ import './Product.css';
 const Product = ({ id, title, img, docs }) => {
     return (
         <div>
-            <div className='product'>
-                <img src={img} alt="Gift card customer" data-bs-toggle="modal" data-bs-target={`#` + id} />
+            <div className='product' data-bs-toggle="modal" data-bs-target={`#` + id}>
+                <img src={img} alt="Gift card customer" />
             </div>
 
             {/* <!-- Modal --> */}
@@ -19,8 +19,8 @@ const Product = ({ id, title, img, docs }) => {
                         <div className="modal-body">
                             <div className="modal-text">
                                 <h2 className='text-center'>{title}</h2>
-                                <p style={{ width: '100%' }}>To redeem your voucher, we will send an OTP to the email address attached to the voucher. Please complete the details below.</p>
-                                {docs}
+                                <p className='text-center'>To redeem your voucher, we will send an OTP to the email address attached to the voucher. Please complete the details below.</p>
+
                                 <form action="" className='form-group'>
                                     <input type="text" placeholder='NGN 0' className='form-control mb-4 mt-5' required />
 

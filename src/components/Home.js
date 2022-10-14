@@ -223,11 +223,11 @@ const Home = () => {
                                         <div className="divider mb-4 quads-primary-color"></div>
 
                                         <ul className="list-unstyled footer-menu lh-35">
-                                            <li><a href="#">Technical Support </a></li>
-                                            <li><a href="#">Telecommunication</a></li>
-                                            <li><a href="#">Cable Management/Structured Cabling</a></li>
-                                            <li><a href="#">Data Migration</a></li>
-                                            <li><a href="#">Computer Repairs</a></li>
+                                            <li><a>Technical Support </a></li>
+                                            <li><a>Telecommunication</a></li>
+                                            <li><a>Cable Management/Structured Cabling</a></li>
+                                            <li><a>Data Migration</a></li>
+                                            <li><a>Computer Repairs</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -238,9 +238,9 @@ const Home = () => {
                                         <div className="divider mb-4 quads-primary-color"></div>
 
                                         <ul className="list-unstyled footer-menu lh-35">
-                                            <li><a href="#">Terms & Conditions</a></li>
-                                            <li><a href="#">Privacy Policy</a></li>
-                                            <li><a href="#">FAQs</a></li>
+                                            <li><a >Terms & Conditions</a></li>
+                                            <li><a >Privacy Policy</a></li>
+                                            <li><a >FAQs</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -255,7 +255,7 @@ const Home = () => {
                                                 <i className="icofont-email mr-3 white-color"></i>
                                                 <span className="h5 mb-0 white-color">Support Available for 24/7</span>
                                             </div>
-                                            <h4 className="mt-2"><a href="#" className="white-color">support@quadzland.com</a></h4>
+                                            <h4 className="mt-2"><a className="white-color">support@quadzland.com</a></h4>
                                         </div>
 
                                         <div className="footer-contact-block">
@@ -263,7 +263,7 @@ const Home = () => {
                                                 <i className="icofont-support mr-3 white-color"></i>
                                                 <span className="h5 mb-0 white-color">Mon to Fri : 09:00am - 6:00pm CST</span>
                                             </div>
-                                            <h4 className="mt-2 white-color"><a href="#" className="white-color">+17372490925</a></h4>
+                                            <h4 className="mt-2 white-color"><a className="white-color">+17372490925</a></h4>
                                         </div>
                                     </div>
                                 </div>

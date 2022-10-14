@@ -6,7 +6,7 @@ const Search = ({ inputValue, onInputChange }) => {
         <div className='searchItem'>
             <input type="text" placeholder='Search hundreds of vouchers' className='voucherInput' value={inputValue} onChange={onInputChange} />
             <div className="searchIcon">
-                <i class="fi fi-br-search"></i>
+                <i className="fi fi-br-search"></i>
             </div>
         </div>
     )
